@@ -1,0 +1,48 @@
+# 塔防游戏伤害分析器 - 依赖包列表
+
+# 核心GUI框架
+ttkbootstrap>=1.10.1
+
+# 数据可视化
+matplotlib>=3.6.0
+numpy>=1.21.0
+
+# 数据处理
+pandas>=1.5.0
+openpyxl>=3.0.0
+xlsxwriter>=3.0.0
+
+# 其他工具
+typing-extensions>=4.0.0
+
+# 图表和图像处理
+seaborn>=0.11.0
+pillow>=9.0.0
+
+# Excel文件处理
+jsonschema>=4.0.0
+
+# 日期时间处理
+python-dateutil>=2.8.0
+
+# PDF报告生成
+reportlab>=3.6.0
+
+# HTML模板引擎 (用于HTML报告)
+jinja2>=3.0.0
+
+# 打包工具
+pyinstaller>=5.0.0
+
+# 可选：增强功能
+# 3D图表支持
+mplcursors>=0.5.0
+
+# 更好的字体支持
+fonttools>=4.0.0
+
+# 系统信息获取
+psutil>=5.8.0
+
+# 更好的文件对话框
+tkinterdnd2>=0.3.0 

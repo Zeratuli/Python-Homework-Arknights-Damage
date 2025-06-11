@@ -1,0 +1,63 @@
+{
+  "app_name": "塔防游戏伤害分析器",
+  "version": "1.0.0",
+  "theme": "litera",
+  "window_size": [
+    1200,
+    800
+  ],
+  "default_enemy_def": 300,
+  "default_enemy_mdef": 30,
+  "ui_settings": {
+    "theme": "cosmo",
+    "font_size_preset": "large",
+    "font_family": "微软雅黑",
+    "custom_font_scale": 0.9715447154471545
+  },
+  "author": "Tower Defense Team",
+  "database": {
+    "default_db": "damage_analyzer.db",
+    "backup_interval": 3600,
+    "max_backups": 10
+  },
+  "calculation": {
+    "precision": 2,
+    "cache_enabled": true,
+    "async_enabled": true,
+    "max_workers": 4
+  },
+  "visualization": {
+    "figure_size": [
+      10,
+      6
+    ],
+    "dpi": 100,
+    "color_palette": [
+      "#FF6B6B",
+      "#4ECDC4",
+      "#45B7D1",
+      "#96CEB4",
+      "#FFEAA7"
+    ],
+    "font_family": "微软雅黑",
+    "save_format": "png"
+  },
+  "performance": {
+    "animation_enabled": true,
+    "animation_fps": 30,
+    "reduced_motion": false,
+    "max_concurrent_animations": 10,
+    "button_effects_enabled": true,
+    "cache_duration": 5.0,
+    "ui_update_throttle": 0.5
+  },
+  "debug": {
+    "performance_logging": false,
+    "animation_debug": false,
+    "memory_monitoring": false
+  },
+  "_metadata": {
+    "last_saved": "2025-06-02T20:38:48.748151",
+    "version": "1.0.0"
+  }
+}
