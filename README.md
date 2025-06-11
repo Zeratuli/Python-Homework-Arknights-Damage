@@ -21,7 +21,8 @@
 
 这是我个人为Python期末大作业做的一个Python程序，README拿AI写的，目前只支持基础伤害计算，不打算更新与维护，仅供学习交流使用。
 
-
+基础界面：
+![image-20250611125523676](C:\Users\54219\AppData\Roaming\Typora\typora-user-images\image-20250611125523676.png)
 
 ### 技术栈详情
 | 分层 | 技术选型 | 版本要求 | 用途说明 |
